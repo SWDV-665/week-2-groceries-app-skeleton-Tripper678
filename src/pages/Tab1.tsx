@@ -20,6 +20,7 @@ const Tab1: React.FC = () => {
 
       <IonList>
         <IonItemSliding>
+          {/* Slide options that appear when swiping right on the list item. */}
           <IonItemOptions side="start">
             <IonItemOption color="success">Permanetly Save to List</IonItemOption>
           </IonItemOptions>
@@ -28,6 +29,7 @@ const Tab1: React.FC = () => {
             <IonLabel>Strawberries, 1 case</IonLabel>
           </IonItem>
 
+          {/* Slide options that appear when swiping left on the list item. */}
           <IonItemOptions>
             <IonItemOption>Mark As Done</IonItemOption>
             <IonItemOption color="danger">Remove</IonItemOption>
